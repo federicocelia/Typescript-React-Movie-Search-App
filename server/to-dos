@@ -1,0 +1,25 @@
+GET /api/movies/popular
+
+GET /api/movies/search?q=batman
+
+GET /api/movies/:id
+
+GET /api/movies/:id/cast
+
+GET /api/movies/:id/similar
+
+GET /api/genres
+
+GET /api/movies/genre/:genreId
+
+
+
+POST /api/auth/register
+
+POST /api/auth/login
+
+GET /api/favorites
+
+POST /api/favorites
+
+DELETE /api/favorites/:movieId
