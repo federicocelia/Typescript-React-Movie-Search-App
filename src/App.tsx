@@ -1,7 +1,12 @@
+import MovieSearch from "./components/MovieSearch";
+
 export default function App() {
   return (
-    <main>
-      <h1>Hello React + TypeScript</h1>
-    </main>
+    <div className="container">
+      <main>
+        <h1 className="title">Hello React + TypeScript</h1>
+        <MovieSearch></MovieSearch>
+      </main>
+    </div>
   );
 }
